@@ -23,10 +23,10 @@ public class TestKismi {
 			String ogrenci3 = "Simge";
 			String ogrenci4 = "Selin";
 
-			int Not = 20;
-			int Not2 = 15;
-			int Not3 = 30;
-			int Not4 = 40;
+			int Not = 21;
+			int Not2 = 22;
+			int Not3 = 20;
+			int Not4 = 24;
 
 			// When
 			ogrenciler.add(ogrenci1 + Not);
@@ -56,10 +56,10 @@ public class TestKismi {
 	public void OgrenciEkle() {
 		List<String> ogrenciler = new ArrayList<>();
 		{
-			String std1 = "Gokhan";
-			String std2 = "Kemal";
-			String std3 = "Simge";
-			String std4 = "Selin";
+			String student1 = "Gokhan";
+			String student2  = "Kemal";
+			String student3 = "Simge";
+			String student4 = "Selin";
 		}
 
 		// When
@@ -80,17 +80,17 @@ public class TestKismi {
 		// Given
 		List<String> ogrenciler = new ArrayList<>();
 		{
-			String std1 = "Gokhan";
-			String std2 = "Kemal";
-			String std3 = "Simge";
-			String std4 = "Selin";
+			String student1 = "Gokhan";
+			String student2 = "Kemal";
+			String student3 = "Simge";
+			String student4 = "Selin";
 
 			// When
 
-			ogrenciler.remove(std3);
+			ogrenciler.remove(student3);
 
 			// Then
-			assertEquals(std3, "Selin");
+			assertEquals(student3, "Simge");
 		}
 
 	}
